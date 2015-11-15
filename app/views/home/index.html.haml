@@ -1,0 +1,587 @@
+/
+  Header
+  \==================================================
+%header#home
+  %nav#nav-wrap
+    %a.mobile-btn{:href => "#nav-wrap", :title => "Show navigation"} Show navigation
+    %a.mobile-btn{:href => "#", :title => "Hide navigation"} Hide navigation
+    %ul#nav.nav
+      %li.current
+        %a.smoothscroll{:href => "#home"} Home
+      %li
+        %a.smoothscroll{:href => "#about"} About
+      %li
+        %a.smoothscroll{:href => "#resume"} Resume
+      %li
+        %a.smoothscroll{:href => "#portfolio"} Works
+      %li
+        %a.smoothscroll{:href => "#testimonials"} Testimonials
+      %li
+        %a.smoothscroll{:href => "#contact"} Contact
+    / end #nav
+  / end #nav-wrap
+  .row.banner
+    .banner-text
+      %h1.responsive-headline I'm Jonathan Doe.
+      %h3
+        I'm a Manila based
+        = succeed "," do
+          %span graphic designer
+        %span illustrator
+        and
+        %span webdesigner
+        creating awesome and
+        effective visual identities for companies of all sizes around the globe. Let's
+        %a.smoothscroll{:href => "#about"} start scrolling
+        and learn more
+        = succeed "." do
+          %a.smoothscroll{:href => "#about"} about me
+      %hr/
+      %ul.social
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-facebook
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-twitter
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-google-plus
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-linkedin
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-instagram
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-dribbble
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-skype
+  %p.scrolldown
+    %a.smoothscroll{:href => "#about"}
+      %i.icon-down-circle
+/ Header End
+/
+  About Section
+  \==================================================
+%section#about
+  .row
+    .three.columns
+      %img.profile-pic{:alt => "", :src => "images/profilepic.jpg"}/
+    .nine.columns.main-col
+      %h2 About Me
+      %p
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+      .row
+        .columns.contact-details
+          %h2 Contact Details
+          %p.address
+            %span Jonathan Doe
+            %br
+              %span
+                1600 Amphitheatre Parkway
+                %br
+                  Mountain View, CA 94043 US
+              %br
+                %span (123)456-7890
+                %br
+                  %span anyone@website.com
+        .columns.download
+          %p
+            %a.button{:href => "#"}
+              %i.fa.fa-download>
+              Download Resume
+      / end row
+    / end .main-col
+/ About Section End
+/
+  Resume Section
+  \==================================================
+%section#resume
+  /
+    Education
+    \-----------------------------------------------
+  .row.education
+    .three.columns.header-col
+      %h1
+        %span Education
+    .nine.columns.main-col
+      .row.item
+        .twelve.columns
+          %h3 University of Life
+          %p.info
+            Master in Graphic Design
+            %span &bull;
+            %em.date April 2007
+          %p
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+      / item end
+      .row.item
+        .twelve.columns
+          %h3 School of Cool Designers
+          %p.info
+            B.A. Degree in Graphic Design
+            %span &bull;
+            %em.date March 2003
+          %p
+            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+            nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+            ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+      / item end
+    / main-col end
+  / End Education
+  /
+    Work
+    \-----------------------------------------------
+  .row.work
+    .three.columns.header-col
+      %h1
+        %span Work
+    .nine.columns.main-col
+      .row.item
+        .twelve.columns
+          %h3 Awesome Design Studio
+          %p.info
+            Senior UX Designer
+            %span &bull;
+            %em.date March 2010 - Present
+          %p
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+      / item end
+      .row.item
+        .twelve.columns
+          %h3 Super Cool Studio
+          %p.info
+            UX Designer
+            %span &bull;
+            %em.date March 2007 - February 2010
+          %p
+            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+            nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+            ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+      / item end
+    / main-col end
+  / End Work
+  /
+    Skills
+    \-----------------------------------------------
+  .row.skill
+    .three.columns.header-col
+      %h1
+        %span Skills
+    .nine.columns.main-col
+      %p
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+        voluptatem sequi nesciunt.
+      .bars
+        %ul.skills
+          %li
+            %span.bar-expand.photoshop
+            %em Photoshop
+          %li
+            %span.bar-expand.illustrator
+            %em Illustrator
+          %li
+            %span.bar-expand.wordpress
+            %em Wordpress
+          %li
+            %span.bar-expand.css
+            %em CSS
+          %li
+            %span.bar-expand.html5
+            %em HTML5
+          %li
+            %span.bar-expand.jquery
+            %em jQuery
+      / end skill-bars
+    / main-col end
+  / End skills
+/ Resume Section End
+/
+  Portfolio Section
+  \==================================================
+%section#portfolio
+  .row
+    .twelve.columns.collapsed
+      %h1 Check Out Some of My Works.
+      / portfolio-wrapper
+      #portfolio-wrapper.bgrid-quarters.s-bgrid-thirds.cf
+        .columns.portfolio-item
+          .item-wrap
+            %a{:href => "#modal-01", :title => ""}
+              %img{:alt => "", :src => "images/portfolio/coffee.jpg"}
+                .overlay
+                  .portfolio-item-meta
+                    %h5 Coffee
+                    %p Illustrration
+                .link-icon
+                  %i.icon-plus
+        / item end
+        .columns.portfolio-item
+          .item-wrap
+            %a{:href => "#modal-02", :title => ""}
+              %img{:alt => "", :src => "images/portfolio/console.jpg"}
+                .overlay
+                  .portfolio-item-meta
+                    %h5 Console
+                    %p Web Development
+                .link-icon
+                  %i.icon-plus
+        / item end
+        .columns.portfolio-item
+          .item-wrap
+            %a{:href => "#modal-03", :title => ""}
+              %img{:alt => "", :src => "images/portfolio/judah.jpg"}
+                .overlay
+                  .portfolio-item-meta
+                    %h5 Judah
+                    %p Webdesign
+                .link-icon
+                  %i.icon-plus
+        / item end
+        .columns.portfolio-item
+          .item-wrap
+            %a{:href => "#modal-04", :title => ""}
+              %img{:alt => "", :src => "images/portfolio/into-the-light.jpg"}
+                .overlay
+                  .portfolio-item-meta
+                    %h5 Into The Light
+                    %p Photography
+                .link-icon
+                  %i.icon-plus
+        / item end
+        .columns.portfolio-item
+          .item-wrap
+            %a{:href => "#modal-05", :title => ""}
+              %img{:alt => "", :src => "images/portfolio/farmerboy.jpg"}
+                .overlay
+                  .portfolio-item-meta
+                    %h5 Farmer Boy
+                    %p Branding
+                .link-icon
+                  %i.icon-plus
+        / item end
+        .columns.portfolio-item
+          .item-wrap
+            %a{:href => "#modal-06", :title => ""}
+              %img{:alt => "", :src => "images/portfolio/girl.jpg"}
+                .overlay
+                  .portfolio-item-meta
+                    %h5 Girl
+                    %p Photography
+                .link-icon
+                  %i.icon-plus
+        / item end
+        .columns.portfolio-item
+          .item-wrap
+            %a{:href => "#modal-07", :title => ""}
+              %img{:alt => "", :src => "images/portfolio/origami.jpg"}
+                .overlay
+                  .portfolio-item-meta
+                    %h5 Origami
+                    %p Illustrration
+                .link-icon
+                  %i.icon-plus
+        / item end
+        .columns.portfolio-item
+          .item-wrap
+            %a{:href => "#modal-08", :title => ""}
+              %img{:alt => "", :src => "images/portfolio/retrocam.jpg"}
+                .overlay
+                  .portfolio-item-meta
+                    %h5 Retrocam
+                    %p Web Development
+                .link-icon
+                  %i.icon-plus
+        / item end
+      / portfolio-wrapper end
+    / twelve columns end
+    /
+      Modal Popup
+      \---------------------------------------------------------------
+    #modal-01.popup-modal.mfp-hide
+      %img.scale-with-grid{:alt => "", :src => "images/portfolio/modals/m-coffee.jpg"}/
+      .description-box
+        %h4 Coffee Cup
+        %p Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+        %span.categories
+          %i.fa.fa-tag>
+          Branding, Webdesign
+      .link-box
+        %a{:href => "http://www.behance.net"} Details
+        %a.popup-modal-dismiss Close
+    / modal-01 End
+    #modal-02.popup-modal.mfp-hide
+      %img.scale-with-grid{:alt => "", :src => "images/portfolio/modals/m-console.jpg"}/
+      .description-box
+        %h4 Console
+        %p Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+        %span.categories
+          %i.fa.fa-tag>
+          Branding, Web Development
+      .link-box
+        %a{:href => "http://www.behance.net"} Details
+        %a.popup-modal-dismiss Close
+    / modal-02 End
+    #modal-03.popup-modal.mfp-hide
+      %img.scale-with-grid{:alt => "", :src => "images/portfolio/modals/m-judah.jpg"}/
+      .description-box
+        %h4 Judah
+        %p Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+        %span.categories
+          %i.fa.fa-tag>
+          Branding
+      .link-box
+        %a{:href => "http://www.behance.net"} Details
+        %a.popup-modal-dismiss Close
+    / modal-03 End
+    #modal-04.popup-modal.mfp-hide
+      %img.scale-with-grid{:alt => "", :src => "images/portfolio/modals/m-intothelight.jpg"}/
+      .description-box
+        %h4 Into the Light
+        %p Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+        %span.categories
+          %i.fa.fa-tag>
+          Photography
+      .link-box
+        %a{:href => "http://www.behance.net"} Details
+        %a.popup-modal-dismiss Close
+    / modal-04 End
+    #modal-05.popup-modal.mfp-hide
+      %img.scale-with-grid{:alt => "", :src => "images/portfolio/modals/m-farmerboy.jpg"}/
+      .description-box
+        %h4 Farmer Boy
+        %p Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+        %span.categories
+          %i.fa.fa-tag>
+          Branding, Webdesign
+      .link-box
+        %a{:href => "http://www.behance.net"} Details
+        %a.popup-modal-dismiss Close
+    / modal-05 End
+    #modal-06.popup-modal.mfp-hide
+      %img.scale-with-grid{:alt => "", :src => "images/portfolio/modals/m-girl.jpg"}/
+      .description-box
+        %h4 Girl
+        %p Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+        %span.categories
+          %i.fa.fa-tag>
+          Photography
+      .link-box
+        %a{:href => "http://www.behance.net"} Details
+        %a.popup-modal-dismiss Close
+    / modal-06 End
+    #modal-07.popup-modal.mfp-hide
+      %img.scale-with-grid{:alt => "", :src => "images/portfolio/modals/m-origami.jpg"}/
+      .description-box
+        %h4 Origami
+        %p Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+        %span.categories
+          %i.fa.fa-tag>
+          Branding, Illustration
+      .link-box
+        %a{:href => "http://www.behance.net"} Details
+        %a.popup-modal-dismiss Close
+    / modal-07 End
+    #modal-08.popup-modal.mfp-hide
+      %img.scale-with-grid{:alt => "", :src => "images/portfolio/modals/m-retrocam.jpg"}/
+      .description-box
+        %h4 Retrocam
+        %p Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+        %span.categories
+          %i.fa.fa-tag>
+          Webdesign, Photography
+      .link-box
+        %a{:href => "http://www.behance.net"} Details
+        %a.popup-modal-dismiss Close
+    / modal-01 End
+  / row End
+/ Portfolio Section End
+/
+  Call-To-Action Section
+  \==================================================
+%section#call-to-action
+  .row
+    .two.columns.header-col
+      %h1
+        %span Get Hosting.
+    .seven.columns
+      %h2
+        %a{:href => "http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"} Host This Template on Dreamhost.
+      %p
+        Looking for an awesome and reliable webhosting? Try
+        = succeed "." do
+          %a{:href => "http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"}
+            %span DreamHost
+        Get
+        %span $50 off
+        when you sign up with the promocode
+        = succeed "." do
+          %span STYLESHOUT
+        / Simply type the promocode in the box labeled “Promo Code” when placing your order.
+    .three.columns.action
+      %a.button{:href => "http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"} Sign Up Now
+/ Call-To-Action Section End
+/
+  Testimonials Section
+  \==================================================
+%section#testimonials
+  .text-container
+    .row
+      .two.columns.header-col
+        %h1
+          %span Client Testimonials
+      .ten.columns.flex-container
+        .flexslider
+          %ul.slides
+            %li
+              %blockquote
+                %p
+                  Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                  to do what you believe is great work. And the only way to do great work is to love what you do.
+                  If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                %cite Steve Jobs
+            / slide ends
+            %li
+              %blockquote
+                %p
+                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                %cite Mr. Adobe
+            / slide ends
+        / div.flexslider ends
+      / div.flex-container ends
+    / row ends
+  / text-container ends
+/ Testimonials Section End
+/
+  Contact Section
+  \==================================================
+%section#contact
+  .row.section-head
+    .two.columns.header-col
+      %h1
+        %span Get In Touch.
+    .ten.columns
+      %p.lead
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+        voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+  .row
+    .eight.columns
+      / form
+      %form#contactForm{:action => "", :method => "post", :name => "contactForm"}
+        %fieldset
+          %div
+            %label{:for => "contactName"}
+              Name
+              %span.required *
+            %input#contactName{:name => "contactName", :size => "35", :type => "text", :value => ""}
+          %div
+            %label{:for => "contactEmail"}
+              Email
+              %span.required *
+            %input#contactEmail{:name => "contactEmail", :size => "35", :type => "text", :value => ""}
+          %div
+            %label{:for => "contactSubject"} Subject
+            %input#contactSubject{:name => "contactSubject", :size => "35", :type => "text", :value => ""}
+          %div
+            %label{:for => "contactMessage"}
+              Message
+              %span.required *
+            %textarea#contactMessage{:cols => "50", :name => "contactMessage", :rows => "15"}
+          %div
+            %button.submit Submit
+            %span#image-loader
+              %img{:alt => "", :src => "images/loader.gif"}
+      / Form End
+      / contact-warning
+      #message-warning Error boy
+      / contact-success
+      #message-success
+        %i.fa.fa-check>
+        Your message was sent, thank you!
+        %br
+    %aside.four.columns.footer-widgets
+      .widget.widget_contact
+        %h4 Address and Phone
+        %p.address
+          Jonathan Doe
+          %br
+            1600 Amphitheatre Parkway
+            %br
+              Mountain View, CA 94043 US
+              %br
+                %span (123) 456-7890
+      .widget.widget_tweets
+        %h4.widget-title Latest Tweets
+        %ul#twitter
+          %li
+            %span
+              This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+              Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+              %a{:href => "#"} http://t.co/CGIrdxIlI3
+            %b
+              %a{:href => "#"} 2 Days Ago
+          %li
+            %span
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+              eaque ipsa quae ab illo inventore veritatis et quasi
+              %a{:href => "#"} http://t.co/CGIrdxIlI3
+            %b
+              %a{:href => "#"} 3 Days Ago
+/ Contact Section End
+/
+  footer
+  \==================================================
+%footer
+  .row
+    .twelve.columns
+      %ul.social-links
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-facebook
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-twitter
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-google-plus
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-linkedin
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-instagram
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-dribbble
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-skype
+      %ul.copyright
+        %li &copy; Copyright 2014 CeeVee
+        %li
+          Design by
+          %a{:href => "http://www.styleshout.com/", :title => "Styleshout"} Styleshout
+    #go-top
+      %a.smoothscroll{:href => "#home", :title => "Back to Top"}
+        %i.icon-up-open
