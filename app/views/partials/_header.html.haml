@@ -1,0 +1,59 @@
+%header#home
+  %nav#nav-wrap
+    %a.mobile-btn{:href => "#nav-wrap", :title => "Show navigation"} Show navigation
+    %a.mobile-btn{:href => "#", :title => "Hide navigation"} Hide navigation
+    %ul#nav.nav
+      %li.current
+        %a.smoothscroll{:href => "#home"} Home
+      %li
+        %a.smoothscroll{:href => "#about"} About
+      %li
+        %a.smoothscroll{:href => "#resume"} Resume
+      %li
+        %a.smoothscroll{:href => "#portfolio"} Works
+      %li
+        %a.smoothscroll{:href => "#testimonials"} Testimonials
+      %li
+        %a.smoothscroll{:href => "#contact"} Contact
+  .row.banner
+    .banner-text
+      %h1.responsive-headline I'm Christian Angel.
+      %h3
+        I'm a Manila based
+        = succeed "," do
+          %span graphic designer
+        %span illustrator
+        and
+        %span webdesigner
+        creating awesome and
+        effective visual identities for companies of all sizes around the globe. Let's
+        %a.smoothscroll{:href => "#about"} start scrolling
+        and learn more
+        = succeed "." do
+          %a.smoothscroll{:href => "#about"} about me
+      %hr/
+      %ul.social
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-facebook
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-twitter
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-google-plus
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-linkedin
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-instagram
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-dribbble
+        %li
+          %a{:href => "#"}
+            %i.fa.fa-skype
+  %p.scrolldown
+    %a.smoothscroll{:href => "#about"}
+      %i.icon-down-circle
