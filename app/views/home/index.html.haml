@@ -22,7 +22,7 @@
   / end #nav-wrap
   .row.banner
     .banner-text
-      %h1.responsive-headline I'm Jonathan Doe.
+      %h1.responsive-headline I'm Christian Angel.
       %h3
         I'm a Manila based
         = succeed "," do
@@ -69,7 +69,8 @@
 %section#about
   .row
     .three.columns
-      %img.profile-pic{:alt => "", :src => "images/profilepic.jpg"}/
+      .profile-pic
+        = image_tag "profilepic.jpg"
     .nine.columns.main-col
       %h2 About Me
       %p
