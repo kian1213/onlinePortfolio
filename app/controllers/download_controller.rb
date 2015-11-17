@@ -1,6 +1,7 @@
 class DownloadController < ApplicationController
+
   RESOURCES = {
-    resume: "/doc/Galamay, Christian Angel - Resume.docx"
+    resume: "/Galamay_Christian_Angel.docx"
   }
 
   def show
