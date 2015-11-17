@@ -325,35 +325,35 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
+.ruby {
   	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: ruby 2s ease;
+  	-webkit-animation: ruby 2s ease;
 }
 .html5 {
   	width: 80%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
+.css3 {
+  	width: 80%;
+  	-moz-animation: css3 2s ease;
+  	-webkit-animation: css3 2s ease;
+}
 .jquery {
-  	width: 50%;
+  	width: 35%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+}
+.coffee {
+  	width: 35%;
+  	-moz-animation: coffee 2s ease;
+  	-webkit-animation: coffee 2s ease;
+}
+.react {
+  	width: 25%;
+  	-moz-animation: react 2s ease;
+  	-webkit-animation: react 2s ease;
 }
 
 @-moz-keyframes photoshop {
