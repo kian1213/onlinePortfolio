@@ -23,9 +23,8 @@
                   %span chrono0424@gmail.com
         .columns.download
           %p
-            %a.button{:href => "#"}
-              %i.fa.fa-download>
-              Download Resume
+            .button
+              = link_to "  Download Resume", download_path(:resume), class: "fa fa-download"
       / end row
     / end .main-col
 / About Section End
