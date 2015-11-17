@@ -1,4 +1,4 @@
-== Connect 4 game
+== My Online Porfolio
 
 Hi, this is my first online resume still on-going. Using rails as my framework and integration of bootstrap template
 
